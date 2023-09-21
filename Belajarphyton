@@ -1,0 +1,34 @@
+variabel1 = ('75+80')
+variabel2 = ('40-15')
+variabel3 = ('13*8')
+variabel4 = ('95/5')
+print (variabel1)
+print (variabel2)
+print (variabel3)
+print (variabel4)
+
+
+
+buah = ["lemon", "jeruk", "anggur", "leci"]
+for x in buah:
+    print(x)
+
+
+i = 1
+while i <= 10: 
+ print(i)
+ i += 1
+
+f = 1
+while f <= 6: 
+ print(i) 
+ if f == 3:
+     break
+ f += 1
+
+k = 0
+while i < 6:
+    k += 1
+    if k == 3:
+        continue 
+    print(k)
